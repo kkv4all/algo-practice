@@ -9,7 +9,7 @@ In Greedy method, There is a problem given with some conditions and we need to f
 greedysolution(a,n)
 	for i = 1 to n do
 		x = select(a)
-		if(feasible(x) then
+		if feasible(x) then
 			solution = solution + x 
 		end
 	end
@@ -32,8 +32,10 @@ The problems on which Greedy approach works has following two properties:
 2. Optimal substructure: an optimal solution to the problem contains an optimal solution to subproblems.
 
 ## Application & Examples
+ - Knapsack Problem
+ 	- Fractional Knapsack
+ 	- 0/1 Knapsack 
  - Activity selection
  - Huffman Coding
  - Job Sequencing Problem
- - Fractional Knapsack Problem
  - Prim's Minimum spanning tree
