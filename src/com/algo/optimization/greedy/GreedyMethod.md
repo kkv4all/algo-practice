@@ -32,9 +32,7 @@ The problems on which Greedy approach works has following two properties:
 2. Optimal substructure: an optimal solution to the problem contains an optimal solution to subproblems.
 
 ## Application & Examples
- - Knapsack Problem
- 	- Fractional Knapsack
- 	- 0/1 Knapsack 
+ - Fractional Knapsack Problem
  - Activity selection
  - Huffman Coding
  - Job Sequencing Problem
