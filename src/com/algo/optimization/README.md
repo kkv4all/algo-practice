@@ -3,5 +3,5 @@ An Optimization Problem is the problem of finding the best solution from all fea
 
 Optimization Problem can be solved by 
  1. [Greedy Method](https://github.com/kkv4all/algorithm-practice/blob/master/src/com/algo/optimization/greedy)
- 2. Dynamic Programming
+ 2. [Dynamic Programming](https://github.com/kkv4all/algorithm-practice/tree/master/src/com/algo/optimization/dynamicprog)
  3. Branch and Bounce
