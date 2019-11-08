@@ -27,19 +27,12 @@ public class HuffmanCoding {
 
 	public static void main(String[] args) {
 		List<HuffmanNode> charAndFrequencies = Arrays.asList(
-//				new HuffmanNode('a',5),
-//				new HuffmanNode('b',9),
-//				new HuffmanNode('c',12),
-//				new HuffmanNode('d',13),
-//				new HuffmanNode('e',16),
-//				new HuffmanNode('f',45)
-				new HuffmanNode('a',10),
-				new HuffmanNode('e',15),
-				new HuffmanNode('i',12),
-				new HuffmanNode('o',3),
-				new HuffmanNode('u',4),
-				new HuffmanNode('s',13),
-				new HuffmanNode('t',1)
+				new HuffmanNode('a',5),
+				new HuffmanNode('b',9),
+				new HuffmanNode('c',12),
+				new HuffmanNode('d',13),
+				new HuffmanNode('e',16),
+				new HuffmanNode('f',45)
 			);
 		HuffmanCoding huffmanCoding = new HuffmanCoding();
 		HuffmanNode rootOfHuffmanTree = huffmanCoding.getHuffmanTree(charAndFrequencies);
