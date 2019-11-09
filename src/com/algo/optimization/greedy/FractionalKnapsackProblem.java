@@ -17,7 +17,7 @@ import java.util.Optional;
  *  Problem Definition:
  *  	There is a green-grocer who used to sell the vegetable daily in market in city near by. He picks vegetables
  *  from his farm daily in his basket of 15kg maximum capacity. considering whatever vegetables he bring to market 
- *  are sold out everyday, he need to take the different varieties vegetables which gives him maximum profit.
+ *  are sold out everyday, he need to take the different varieties vegetables which will give him maximum profit.
  *	So,
  *	Given is list of vegetables with total profit on each vegetable and weight of vegetable can be picked up for sale(Kgs)
  *	Criteria is the green-grocer can take 15kgs maximum
@@ -52,7 +52,7 @@ public class FractionalKnapsackProblem {
 		}
 	}
 
-	private List<KnapsackItem> greedySolution(List<KnapsackItem> knapsackItems, int maxKnapsackCapacity) {
+	public List<KnapsackItem> greedySolution(List<KnapsackItem> knapsackItems, int maxKnapsackCapacity) {
 		List<KnapsackItem> itemsTaken = new ArrayList<KnapsackItem>();
 		int remainingCapacity = maxKnapsackCapacity;
 
