@@ -42,9 +42,14 @@ It uses following steps to solve the problem:
  - Finally we get the value of f(n).
 
 ## Pros and Cons
-its is time consuming and complex in nature.
-it uses recursive formulas.
+**_Pros_**
 
+ - process of breaking down a complex problem often provides insight to nature of problem.
+
+**_Cons_**
+
+ - its is time consuming and complex in nature.
+ - it uses recursive formulas. 
 
 ## Application & Examples
  - 0/1 Knapsack Problem
